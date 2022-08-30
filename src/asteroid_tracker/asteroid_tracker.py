@@ -24,13 +24,10 @@ def main():
     Main function which parses input and calculates statistics.
     """
 
-    start_date = None
-    end_date = None
-
     # TODO: Task 1 - Gather user input
 
     start_date = input("Please provide a start date (eg. 2021-02-12): ") #'2021-01-01'#
-    end_date = input("Please provide a end date (eg. 2021-02-12): ")
+    end_date = input("Please provide an end date (eg. 2021-02-12): ")
 
     stats = calculate_statistics(start_date, end_date)
 
